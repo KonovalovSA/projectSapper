@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/main.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>Сапёр</title>
+	</head>
+  <body>
+	  <div id="game" class="mt-5">
+      <form class="settings mb-2">
+        <select id="level" class="mb-2">
+          <option value="1">Легкий</option>
+          <option value="2">Средний</option>
+          <option value="3">Сложный</option>
+          <option value="4">Пользовательский</option>
+        </select>
+        <label>Колличество мин
+          <input id="countMine" class="inputForm" value="10" required>
+        </label>
+        <input id="start" class="btn btn-primary" type="button" value="Начать игру">
+        <label>Размер поля
+          <input  id="width" class="inputForm" value="9" required>x
+          <input id="height" class="inputForm" value="9" required>
+        </label>
+      </form>
+      <div id="smile"></div>
+        <div class="menu">
+          <label class="time">Время
+            <input id="hour" class="inputGame"disabled>:
+            <input id="min" class="inputGame"disabled>:
+            <input id="sec" class="inputGame"disabled>
+          </label>
+
+          <label class="leftMin">Осталось мин
+            <input id="leftMin" class="inputGame"disabled>
+          </label>
+
+          <label class="step">Ходов
+            <input id="step" class="inputGame" disabled>
+          </label>
+        </div>
+      </div>
+    </div>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+tr {
+  line-height: 0;
+}
+
+td {
+  position: relative;
+  height: 52px;
+  width: 52px;
+  margin: 1px;
+  border: 2px solid #7b7b7b;
+  text-align: center;
+  font-size: 1.2em;
+  
+}
+
+button {
+  height: 50px;
+  width: 51px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  background-color: #bdbdbd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px outset white;
+}
+
+
+.fone {
+  background-color: #bdbdbd;
+}
+
+.mine {
+  background-image: url(../jpeg/mine.png);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+form {
+  padding: 10px;
+    width: 476px;
+    border-bottom: 1px solid #757575;
+    background-color: #d6d6d6;
+}
+
+.inputForm {
+  width: 40px;
+}
+
+.inputGame {
+  width: 30px;
+}
+
+#game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  padding: 2px;
+  border: 5px solid #757575;
+  background-color: #d6d6d6;
+  padding-bottom: 4px;
+}
+
+.time {
+  padding-left: 20px;
+}
+
+.step {
+  padding-right: 20px;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+input {
+  text-align: center;
+  background-color: #d6d6d6;
+}
+
+select {
+  background-color: #d6d6d6;
+}
+
+.flag {
+  background-image: url(../jpeg/flag.png);
+  background-size: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#start {
+  width: 165px;
+  height: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.settings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#smile {
+  background-color: #d6d6d6;
+}
+
+.inGameSmile {
+  height:50px;
+  width:50px;
+  background-image: url('../jpeg/inGameSmile.png');
+  background-size: 50px;
+}
+
+.fuhSmile {
+  height:50px;
+  width:50px;
+  background-image: url('../jpeg/fuhSmile.png');
+  background-size: 50px;
+}
+
+.mineSmile {
+  height:50px;
+  width:50px;
+  background-image: url('../jpeg/mineSmile.png');
+  background-size: 50px;
+}
+
+.winSmile {
+  height:50px;
+  width:50px;
+  background-image: url('../jpeg/winSmile.png');
+  background-size: 50px;
+}
